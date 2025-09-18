@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ListyCityLab3</string>
+    <string name="city">City</string>
+    <string name="province">Province</string>
+    <string name="mainHeader">Cities</string>
+    <string name="floatingButtonAddCity">Add a city</string>
+    <string name="cityHint">City</string>
+    <string name="provinceHint">Provinvce</string>
 </resources>

@@ -4,9 +4,9 @@ public class City {
     private String name;
     private String province;
 
-    public City(String arg1, String arg2) {
-        name = arg1;
-        province = arg2;
+    public City(String name, String province) {
+        this.name = name;
+        this.province = province;
     }
 
     public String getName() {
@@ -17,8 +17,8 @@ public class City {
         return province;
     }
 
-    public String setName() {
-        this.province = name;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setProvince(String province) {
